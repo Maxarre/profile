@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: black;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  color: #0adb00;
+}
+
+h2 {
+  color: #9e0000;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.btn-green {
+  background-color: #090093;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.btn-green:hover {
+  background-color: yellow;
+}
+
+#link {
+  color: orange;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: yellow;
+}
+
+div {
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+.card {
+  background-color: #858585;
+  border:5px solid #9dc4cc;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display : inline;
+  padding: 10px;
+}
